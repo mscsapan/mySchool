@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {}
+
+#header-image {
+    height: 400px;
+    width: 1165px;
+}
+
+.clear-div {
+    clear: both;
+}
+
+hr {
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    margin-top: 0;
+}
+
+marquee {
+    font-size: 20px;
+    color: green;
+    /*font-family: 'Antic Slab', serif;*/
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.menu-bar {
+    text-align: center;
+    background-color: green;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu-bar ul li {
+    margin-right: 15px;
+    font-size: 15px;
+    color: white;
+    padding: 13px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home,
+.menu-bar ul li:hover {
+    border-radius: 3px;
+    background-color: tomato;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* classes sub menu start here*/
+
+.class-sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .class-sub-menu {
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .class-sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .class-sub-menu ul li {
+    width: 150px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+    background: transparent;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu-bar ul li:hover .class-sub-menu ul li:hover {
+    background-color: teal;
+    border-bottom: 30x;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover .class-sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* classes sub menu end here*/
+
+
+/* ---------------------------*/
+
+
+/* faculty sub menu start here*/
+
+.faculty-sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .faculty-sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #1976D2;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .faculty-sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .faculty-sub-menu ul li {
+    width: 150px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+    background: transparent;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu-bar ul li:hover .faculty-sub-menu ul li:hover {
+    background-color: teal;
+    border-bottom: 30x;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover .faculty-sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* faculty sub menu end here*/
+
+
+/* --------------------------*/
+
+
+/* activity sub menu start here*/
+
+.activity-sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .activity-sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #00BFA5;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .activity-sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .activity-sub-menu ul li {
+    width: 150px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+    background: transparent;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu-bar ul li:hover .activity-sub-menu ul li:hover {
+    background-color: teal;
+    border-bottom: 30x;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover .activity-sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* activity sub menu end here*/
+
+
+/* ---------------------------*/
+
+
+/* profile sub menu start here*/
+
+.profile-sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .profile-sub-menu {
+    display: block;
+    position: absolute;
+    background-color: cadetblue;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .profile-sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .profile-sub-menu ul li {
+    width: 150px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+    background: transparent;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu-bar ul li:hover .profile-sub-menu ul li:hover {
+    background-color: teal;
+    border-bottom: 30x;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover .profile-sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* profile sub menu end here*/
+
+footer {
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.footer-container {
+    margin-top: 15px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
